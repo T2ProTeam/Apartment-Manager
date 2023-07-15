@@ -14,9 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 
-using UI.Utilities;
-using Unity.Policy;
 using AM.UI.Utilities;
+using Unity.Policy;
 using AM.UI.ViewModelUI;
 using Services.Interface;
 using Services.Implement;
@@ -32,7 +31,7 @@ namespace AM.UI.View.People
     /// </summary>
     public partial class Home : UserControl
     {
-        private IPeople _people = new PeopleServices();
+        private readonly IPeople _people = new PeopleServices();
         private Button current = null;
         private Regex regex = new Regex();
         private ControlObject co = new ControlObject();

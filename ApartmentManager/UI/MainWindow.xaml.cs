@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Services.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace AM.UI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private readonly IBill _roomDetails;
+
+        public MainWindow(IBill roomDetails)
         {
             InitializeComponent();
+            _roomDetails=roomDetails;
         }
 
         private void CloseApp_Click(object sender, RoutedEventArgs e)

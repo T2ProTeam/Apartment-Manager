@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace UI.Utilities
+namespace AM.UI.Utilities
 {
     internal class ViewModelBase : INotifyPropertyChanged
     {

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UI.Utilities;
+using AM.UI.Utilities;
 using System.Windows.Input;
 using ViewModel.People;
 using ViewModel.Room;
+using Services.Interface;
 
-namespace UI.ViewModel
+namespace AM.UI.ViewModel
 {
     internal class NavigationVM : ViewModelBase
     {

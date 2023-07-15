@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI.View.Rooms
+namespace AM.UI.View.Rooms
 {
     /// <summary>
     /// Interaction logic for RoomAdd.xaml

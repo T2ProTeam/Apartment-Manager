@@ -4,13 +4,13 @@
     /// YouTube Channel : C# Design Pro
     /// </Summary>-->
 
-<Window x:Class="UI.MainWindow"
+<Window x:Class="AM.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:UI.ViewModel"
-        xmlns:Menu="clr-namespace:UI.Utilities"
+        xmlns:vm="clr-namespace:AM.UI.ViewModel"
+        xmlns:Menu="clr-namespace:AM.UI.Utilities"
         mc:Ignorable="d"
         Title="MainWindow"
         Height="680"

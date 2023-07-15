@@ -1,5 +1,6 @@
 ﻿
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\App.xaml;;
+FD:\GitHub\Apartment-Manager\ApartmentManager\UI\Login.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\MainWindow.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\Styles\DataGrid.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\Utilities\DataTemplate.xaml;;
@@ -13,8 +14,6 @@ FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Furniture\FurnitureDelete.
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Furniture\FurnitureHome.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Furniture\FurnitureUpdate.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Homes\Home.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Orders.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\People\Home.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RentalContract\RentalContactDelete.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RentalContract\RentalContractAdd.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RentalContract\RentalContractUpdate.xaml;;
@@ -22,11 +21,4 @@ FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsAdd
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsDelete.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsHome.xaml;;
 FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsUpdate.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomAdd.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomDelete.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomHome.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomUpdate.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Settings.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Shipments.xaml;;
-FD:\GitHub\Apartment-Manager\ApartmentManager\UI\View\Transactions.xaml;;
 

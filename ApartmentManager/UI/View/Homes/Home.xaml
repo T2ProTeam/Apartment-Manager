@@ -5,11 +5,13 @@
              xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:UI.View.Homes"
+             xmlns:vm="clr-namespace:AM.UI.ViewModelUI"
              mc:Ignorable="d"
              Background="#212529"
              d:DesignHeight="681"
              d:DesignWidth="732"
              Style="{StaticResource Page_Style}">
+
     <Grid>
         <Grid  Margin="15 15 15 0">
             <Grid.RowDefinitions>
