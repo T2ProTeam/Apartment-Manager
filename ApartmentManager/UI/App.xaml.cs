@@ -13,7 +13,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using AM.UI.ViewModel;
+using AM.UI.ViewModelUI;
 
 namespace AM.UI
 {
@@ -42,7 +42,7 @@ namespace AM.UI
         protected override async void OnStartup(StartupEventArgs e)
         {
             await AppHost.StartAsync();
-            var starupForm = AppHost.Services.GetRequiredService<Login>();
+            var starupForm = AppHost.Services.GetRequiredService<MainWindow>();
             //starupForm.DataContext = AppHost.Services.GetRequiredService<NavigationVM>();
             starupForm.Show();
             base.OnStartup(e);

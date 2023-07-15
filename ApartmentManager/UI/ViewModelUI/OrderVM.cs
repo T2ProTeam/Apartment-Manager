@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Page_Navigation_App.Model;
 
-namespace AM.UI.ViewModel
+namespace AM.UI.ViewModelUI
 {
     internal class OrderVM : Utilities.ViewModelBase
     {

@@ -9,7 +9,7 @@ using ViewModel.People;
 using ViewModel.Room;
 using Services.Interface;
 
-namespace AM.UI.ViewModel
+namespace AM.UI.ViewModelUI
 {
     internal class NavigationVM : ViewModelBase
     {

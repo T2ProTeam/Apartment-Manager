@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using ViewModel.Dtos;
 using ViewModel.People;
 
-namespace AM.UI.ViewModel
+namespace AM.UI.ViewModelUI
 {
     public class HomeVM
     {
