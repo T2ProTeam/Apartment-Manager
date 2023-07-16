@@ -13,7 +13,12 @@ namespace AM.UI.ViewModelUI
     public class HomeVM
     {
         private readonly IPeople _Ipeople;
-        public int a = 10;
+
+        public int a
+        {
+            get { return 5; }
+        }
+
         private PagedResult<CustomerVM> list;
 
         public HomeVM()
@@ -24,7 +29,6 @@ namespace AM.UI.ViewModelUI
         {
             _Ipeople=ipeople;
             adsasd();
-            a= list.PageSize;
         }
 
         public async void adsasd()
