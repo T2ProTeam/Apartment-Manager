@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj": {}
+    "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj": {
+    "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\GitHub\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\84768\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Apartment-Manager\\ApartmentManager\\Data\\obj\\",
+        "projectPath": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\THANH\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\84768\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\THANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,7 +104,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
