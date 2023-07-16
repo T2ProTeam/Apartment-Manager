@@ -31,18 +31,18 @@ namespace AM.UI
                 {
                     services.AddSingleton<Login>();
                     services.AddSingleton<MainWindow>();
-                    services.AddScoped<NavigationVM>();
-                    //   services.AddFormFactory<MainWindow>();
+                    services.AddFormFactory<MainWindow>();
                     services.AddSingleton<View.People.Home>();
                     services.AddTransient<IPeople, PeopleServices>();
                     services.AddTransient<IBill, BillServices>();
+                    services.AddTransient<IFurniture, FurnitureServices>();
                 }).Build();
         }
 
         protected override async void OnStartup(StartupEventArgs e)
         {
             await AppHost.StartAsync();
-            var starupForm = AppHost.Services.GetRequiredService<MainWindow>();
+            var starupForm = AppHost.Services.GetRequiredService<Login>();
             //starupForm.DataContext = AppHost.Services.GetRequiredService<NavigationVM>();
             starupForm.Show();
             base.OnStartup(e);

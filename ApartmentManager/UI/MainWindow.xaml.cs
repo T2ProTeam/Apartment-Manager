@@ -21,9 +21,9 @@ namespace AM.UI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly IBill _roomDetails;
+        private readonly IFurniture _roomDetails;
 
-        public MainWindow(IBill roomDetails)
+        public MainWindow(IFurniture roomDetails)
         {
             InitializeComponent();
             _roomDetails=roomDetails;

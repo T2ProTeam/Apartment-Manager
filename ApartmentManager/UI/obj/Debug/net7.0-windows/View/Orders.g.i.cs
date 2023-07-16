@@ -9,9 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AM.UI.ViewModelUI;
-using MahApps.Metro.IconPacks;
-using MahApps.Metro.IconPacks.Converter;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -55,7 +52,7 @@ namespace AM.UI.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AM.UI;component/view/orders.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AM.UI;V1.0.0.0;component/view/orders.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Orders.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

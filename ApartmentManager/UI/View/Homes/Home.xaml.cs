@@ -1,4 +1,5 @@
-﻿using Caliburn.Micro;
+﻿using AM.UI.ViewModelUI;
+using Caliburn.Micro;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -22,6 +23,8 @@ namespace UI.View.Homes
     /// </summary>
     public partial class Home : UserControl
     {
+        private HomeVM asd = new HomeVM();
+
         public Home()
         {
             InitializeComponent();
@@ -34,7 +37,7 @@ namespace UI.View.Homes
             nember.Add(new Nemmber() { ID =6, Charactic="T", Name="Thien", Old="2", Year ="6" });
             nember.Add(new Nemmber() { ID =7, Charactic="T", Name="Thien", Old="2", Year ="7" });
             nember.Add(new Nemmber() { ID =8, Charactic="T", Name="Thien", Old="2", Year ="8" });
-
+            this.DataContext = asd;
             homedata.ItemsSource=nember;
         }
 
