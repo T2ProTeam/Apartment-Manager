@@ -8,9 +8,7 @@
 
              mc:Ignorable="d"
              Style="{StaticResource Page_Style}">
-    <UserControl.DataContext>
-        <vm:CustomerVM />
-    </UserControl.DataContext>
+    
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </UserControl.Resources>

@@ -9,7 +9,7 @@ using ViewModel.RoomImage;
 
 namespace Services.Interface
 {
-    public interface RoomImage
+    public interface IRoomImage
     {
         Task<int> CreateImage(RoomImageCreateViewModel model);
 

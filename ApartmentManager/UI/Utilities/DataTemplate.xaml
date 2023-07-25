@@ -6,33 +6,19 @@
                     xmlns:view="clr-namespace:AM.UI.View"
                     xmlns:vm ="clr-namespace:AM.UI.ViewModelUI"
                     xmlns:vp="clr-namespace:AM.UI.View.People"
-                    xmlns:vh="clr-namespace:UI.View.Homes">
-
+                    xmlns:vr="clr-namespace:AM.UI.View.Rooms"
+                    xmlns:vh="clr-namespace:UI.View.Homes"
+                    >
+    
+    <DataTemplate DataType="{x:Type vm:RoomAddUI}">
+        <vr:RoomAdd/>
+    </DataTemplate>
     <DataTemplate DataType="{x:Type vm:HomeVM}">
-        <vh:Home />
+        <vh:Home/>
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type people:CustomerVM}">
-        <vp:Home />
+    <DataTemplate DataType="{x:Type vm:NavigationVM}">
+        <vh:Home/>
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type room:RoomVm}">
-        <roomview:RoomHome />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:OrderVM}">
-        <view:Orders />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:TransactionVM}">
-        <view:Transactions />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:ShipmentVM}">
-        <view:Shipments />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:SettingVM}">
-        <view:Settings />
-    </DataTemplate>
 </ResourceDictionary>

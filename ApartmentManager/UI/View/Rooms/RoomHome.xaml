@@ -4,10 +4,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:vm ="clr-namespace:AM.UI.ViewModelUI"
+             xmlns:vr="clr-namespace:AM.UI.View.Rooms" d:DataContext="{d:DesignInstance Type=vm:RoomVMUI}"
              mc:Ignorable="d"
              d:DesignHeight="630" d:DesignWidth="730">
 
     <Grid>
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type vm:RoomAddUI}">
+                <vr:RoomAdd/>
+            </DataTemplate>
+        </Grid.Resources>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -26,7 +33,7 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
-            <Button Style="{StaticResource DetailsButton}" Content="Add" HorizontalAlignment="Left" Margin="27,57,0,0" VerticalAlignment="Top" />
+            <Button Style="{StaticResource DetailsButton}" Content="Add" HorizontalAlignment="Left" Margin="27,57,0,0" VerticalAlignment="Top" Command="{Binding AddCommand}" />
         </StackPanel>
         <StackPanel Grid.Row="0" Grid.ColumnSpan="4">
             <Button Style="{StaticResource DetailsButton}" Content="Room Details"  Margin="190,57,0,0" />
@@ -41,8 +48,9 @@
         <StackPanel Grid.Row="2" Grid.ColumnSpan="7" Grid.RowSpan="4" x:Name="main">
             <DataGrid Height="350" Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Margin="0 0 0 0" x:Name="homedata">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*" />
-                    <DataGridTextColumn Header="Name" IsReadOnly="True" CanUserResize="False" Width="*" />
+                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding ID}"/>
+                    <DataGridTextColumn Header="Leader Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding NameLeader}"/>
+                    <DataGridTextColumn Header="Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Name}"/>
                     <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
@@ -50,7 +58,7 @@
                                     <Button Style="{StaticResource EditButton}">
                                         <iconPacks:PackIconMaterial Kind="PencilOutline" Style="{StaticResource ButtonIcon}" />
                                     </Button>
-                                    <Button Style="{StaticResource EditButton}">
+                                    <Button  Style="{StaticResource EditButton}">
                                         <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
                                     </Button>
                                 </StackPanel>

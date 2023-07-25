@@ -7,7 +7,7 @@ using Page_Navigation_App.Model;
 
 namespace AM.UI.ViewModelUI
 {
-    internal class SettingVM : Utilities.ViewModelBase
+    public class RoomAddVM : Utilities.ViewModelBase
     {
     }
 }

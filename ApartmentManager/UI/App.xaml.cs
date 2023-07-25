@@ -14,6 +14,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using AM.UI.ViewModelUI;
+using Data.Entity;
+using AM.UI.View.Rooms;
 
 namespace AM.UI
 {
@@ -23,12 +25,14 @@ namespace AM.UI
     public partial class App : Application
     {
         public static IHost AppHost { get; private set; }
+        private readonly RoomVMUI _roomVMUI;
 
         public App()
-        {
+        { 
             AppHost = Host.CreateDefaultBuilder()
                 .ConfigureServices((hostContext, services) =>
                 {
+
                     services.AddSingleton<Login>();
                     services.AddSingleton<MainWindow>();
                     services.AddFormFactory<MainWindow>();
@@ -39,11 +43,12 @@ namespace AM.UI
                 }).Build();
         }
 
+ 
         protected override async void OnStartup(StartupEventArgs e)
         {
             await AppHost.StartAsync();
-            var starupForm = AppHost.Services.GetRequiredService<Login>();
-            //starupForm.DataContext = AppHost.Services.GetRequiredService<NavigationVM>();
+            var starupForm = AppHost.Services.GetRequiredService<MainWindow>();
+            //starupForm.DataContext = AppHost.Services.GetRequiredService<HomeVM>();
             starupForm.Show();
             base.OnStartup(e);
         }

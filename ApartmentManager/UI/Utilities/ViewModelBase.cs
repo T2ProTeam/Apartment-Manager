@@ -5,16 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using AM.UI.ViewModelUI;
 
 namespace AM.UI.Utilities
 {
-    internal class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void OnPropertyChanged([CallerMemberName] string propName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
+        }
+
+        public static implicit operator ViewModelBase(HomeVM v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

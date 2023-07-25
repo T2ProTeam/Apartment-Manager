@@ -1,5 +1,5 @@
 ﻿D:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.i.cs
-FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\App.xaml;;
+
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\Login.xaml;;
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\MainWindow.xaml;;
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\Styles\DataGrid.xaml;;
@@ -21,4 +21,6 @@ FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\RoomDeta
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsDelete.xaml;;
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsHome.xaml;;
 FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\RoomDetails\RoomDetailsUpdate.xaml;;
+FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomDelete.xaml;;
+FD:\GitHub\Apartment-Manager\Apartment-Manager\ApartmentManager\UI\View\Rooms\RoomHome.xaml;;
 

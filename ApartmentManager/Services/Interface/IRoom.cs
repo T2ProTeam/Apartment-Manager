@@ -10,11 +10,11 @@ using ViewModel.RoomImage;
 
 namespace Services.Interface
 {
-    public interface IRoomImage
+    public interface IRoom
     {
-        Task<int> CreateRoom(RoomImageCreateViewModel model);
+        Task<int> CreateRoom(RoomCreateViewModel model);
 
-        Task<int> UpdateRoom(RoomImageUpdateViewModel model);
+        Task<int> UpdateRoom(RoomUpdateViewModel model);
 
         Task<int> DeleteRoom(int ImageId);
 

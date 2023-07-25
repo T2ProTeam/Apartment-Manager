@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              d:DesignHeight="630" d:DesignWidth="730">
     <Grid>
-        <Button Style="{StaticResource DetailsButton}" Content="Add Confirm" HorizontalAlignment="Left" Margin="185,280,0,0" VerticalAlignment="Top" />
+        <Button Style="{StaticResource DetailsButton}" Command="{Binding SubmitCommand}" Content="Add Submit" HorizontalAlignment="Left" Margin="185,280,0,0" VerticalAlignment="Top" />
         <Button Style="{StaticResource DetailsButton}" Content="Cancel" HorizontalAlignment="Left" Margin="416,280,0,0" VerticalAlignment="Top" />
         <TextBlock HorizontalAlignment="Left" Margin="58,96,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
         <TextBox HorizontalAlignment="Left" Margin="185,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="25" />

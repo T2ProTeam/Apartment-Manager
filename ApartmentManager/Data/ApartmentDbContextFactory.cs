@@ -15,7 +15,7 @@ namespace Data
         public AparmentDbContext CreateDbContext(string[] args = null)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AparmentDbContext>();
-            optionsBuilder.UseSqlServer("Data Source=DESKTOP-IQ3UV32\\SQLEXPRESS;Database=Apartment;User ID=sa;Password=123456;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source=ADMIN-PC;Database=Apartment;Trusted_Connection=True;TrustServerCertificate=True");
             return new AparmentDbContext(optionsBuilder.Options);
         }
     }

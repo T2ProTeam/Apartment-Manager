@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "ApartmentDB": "Data Source=DESKTOP-IQ3UV32\\SQLEXPRESS;Database=Apartment;User ID=sa;Password=123456;TrustServerCertificate=True"
-    //"ApartmentDB": "Data Source=ADMIN-PC;Database=Apartment;Trusted_Connection=True;TrustServerCertificate=True"
+   // "ApartmentDB": "Data Source=DESKTOP-IQ3UV32\\SQLEXPRESS;Database=Apartment;User ID=sa;Password=123456;TrustServerCertificate=True"
+    "ApartmentDB": "Data Source=ADMIN-PC;Database=Apartment;Trusted_Connection=True;TrustServerCertificate=True"
   }
 }

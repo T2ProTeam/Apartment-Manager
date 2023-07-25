@@ -13,22 +13,22 @@ namespace Services.Implement
 {
     public class RoomImageServices : IRoomImage
     {
-        public Task<int> CreateRoom(RoomImageCreateViewModel model)
+        public Task<int> CreateImage(RoomImageCreateViewModel model)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> DeleteRoom(int ImageId)
+        public Task<int> DeleteImage(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<PagedResult<RoomVm>> GetAllPage(RequestPaging request)
+        public Task<PagedResult<RoomImageVm>> GetAllPage(RequestPaging request)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> UpdateRoom(RoomImageUpdateViewModel model)
+        public Task<int> UpdateImage(RoomImageUpdateViewModel model)
         {
             throw new NotImplementedException();
         }

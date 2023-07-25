@@ -53,7 +53,7 @@ namespace UI.View.Bills {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AM.UI;V1.0.0.0;component/view/bills/billupdate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AM.UI;component/view/bills/billupdate.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Bills\BillUpdate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
