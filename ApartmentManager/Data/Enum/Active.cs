@@ -8,6 +8,6 @@ namespace Data.Enum
 {
     public enum Active
     {
-        Yes,No
+        No, Yes
     }
 }

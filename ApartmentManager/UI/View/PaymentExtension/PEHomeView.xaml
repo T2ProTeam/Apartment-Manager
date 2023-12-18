@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="AM.UI.View.PEHomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:custom="clr-namespace:AM.UI.Utilities"
+             xmlns:nav="clr-namespace:AM.UI.State.Navigators" xmlns:converters="clr-namespace:AM.UI.Converters"
+             mc:Ignorable="d"
+             Style="{StaticResource Page_Style}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <converters:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="3">
+            <TextBlock Text="Payment " Style="{StaticResource TextTitle}"  FontSize="36" Margin=" 10 10 0 0" HorizontalAlignment="Left" FontWeight="Bold" />
+            <TextBlock Text=" Extension" Style="{StaticResource TextTitle}"  FontSize="36" Margin="40 10 0 0" FontWeight="Bold" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="4">
+            <TextBlock Text="Search here :" HorizontalAlignment="Left" FontSize="15" Margin="10 2 0 0" Foreground="#b0b9c6" />
+            <Grid Width="300" HorizontalAlignment="Left" Margin="10 2 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="14*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="20,0,20,0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+                           Panel.ZIndex="1"  Text="search by id......" x:Name="textblock"
+                           Visibility="{Binding IsText, Converter={StaticResource BoolToVis}}" Grid.ColumnSpan="2" />
+
+                <TextBox x:Name="txtSearch" Style="{StaticResource textboxSearch}" Text="{Binding search,UpdateSourceTrigger=PropertyChanged}" Height="35"  Width="300" Grid.ColumnSpan="2" HorizontalAlignment="Left" />
+
+                <Icon:PackIconMaterial Kind="Magnify" Width="15" Height="15" VerticalAlignment="Center"
+                                       Margin="250,0,0,0" Foreground="#b0b9c6" Grid.Column="1" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3">
+            <Button Style="{StaticResource AddButton}"
+                    Command="{Binding AddNavCustomer}"
+                    CommandParameter="{x:Static nav:ViewType.CustomerAdd}">
+                <StackPanel Orientation="Horizontal">
+                    <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0" />
+                    <TextBlock Text="Add New Payment" />
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="7" Grid.RowSpan="4" x:Name="main">
+            <custom:LoadingSpinner
+
+                Diameter="100"
+                IsLoading="{Binding IsLoading}"
+                Thickness="5"
+                Color="Black" />
+            <TextBlock
+                    Foreground="Red"
+                    Text="{Binding ErrorMessage}"
+                    Visibility="{Binding HasErrorMessage, Converter={StaticResource BoolToVis}}" />
+
+            <DataGrid ItemsSource="{Binding ListPE}" Visibility="{Binding HasData, Converter={StaticResource BoolToVis}}" Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Margin="0 20 0 0" x:Name="homedata">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="IDBill" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding IDBill}" />
+                    <DataGridTextColumn Header="Room Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding NameRoom}" />
+                    <DataGridTextColumn Header="Leader Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding NameLeader}" />
+                    <DataGridTextColumn Header="Extension Date" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Days}" />
+                    <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Style="{StaticResource EditButton}"
+                                            Command="{Binding DataContext.UpdateNavCustomer, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="PencilOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                    <Button Style="{StaticResource EditButton}"
+                                        Command="{Binding DataContext.DeleteCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</UserControl>

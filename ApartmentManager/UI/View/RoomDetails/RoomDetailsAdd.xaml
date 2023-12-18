@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="AM.UI.View.RoomDetails.RoomDetailsAdd"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:AM.UI.View.RoomDetails"
+             mc:Ignorable="d"
+             d:DesignHeight="630" d:DesignWidth="730">
+    <Grid>
+        <Button Command="{Binding SelectedFile}" Content="Chọn Tệp" />
+        <TextBlock  Margin="10,30,10,0" VerticalAlignment="Top" />
+        <Button Command="{Binding SelectedFileConfirm}"  Style="{StaticResource DetailsButton}" Content="Add Confirm" HorizontalAlignment="Left" Margin="185,280,0,0" VerticalAlignment="Top" />
+        <Button Style="{StaticResource DetailsButton}" Content="Cancel" HorizontalAlignment="Left" Margin="416,280,0,0" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="31,97,0,0" TextWrapping="Wrap" Text="ID Image" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox Text="{Binding ID}" HorizontalAlignment="Left" Margin="185,96,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150" Height="25" />
+        <TextBox HorizontalAlignment="Left" Margin="185,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="3" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="31,183,0,0" TextWrapping="Wrap" Text="ID Room" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox HorizontalAlignment="Left" Margin="185,183,0,0" TextWrapping="Wrap" Text="{Binding detailsImage.ID}" VerticalAlignment="Top" Width="150" Height="25" />
+        <TextBox HorizontalAlignment="Left" Margin="185,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="3" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="390,98,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox HorizontalAlignment="Left" Margin="544,98,0,0" TextWrapping="Wrap" Text="{Binding Name}" Foreground="#FFEEEEEE" VerticalAlignment="Top" Width="150" Height="24" />
+        <TextBox HorizontalAlignment="Left" Margin="544,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="2" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="390,184,0,0" TextWrapping="Wrap" Text="Url" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox HorizontalAlignment="Left" Margin="544,184,0,0" TextWrapping="Wrap" Text="{Binding Url}"  VerticalAlignment="Top" Width="150" Height="26" />
+        <TextBox HorizontalAlignment="Left" Margin="544,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="4" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <ListBox  ItemsSource="{Binding tempimages,UpdateSourceTrigger=PropertyChanged}"  Height="NaN" Width="NaN" Margin="120,422,164,10">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Image Source="{Binding Url}"  Width="50" Height="50">
+                        </Image>
+                        <TextBlock Text="{Binding Name}" FontSize="15" Background="White" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Command="{Binding RemoveItem}" Content="Button" HorizontalAlignment="Left" Margin="619,372,0,0" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="469,372,0,0" TextWrapping="Wrap" Text="{Binding name}" VerticalAlignment="Top" Width="150" Height="24" />
+    </Grid>
+</UserControl>

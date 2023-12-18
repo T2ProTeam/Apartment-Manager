@@ -1,0 +1,116 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:nav="clr-namespace:AM.UI.State.Navigators"
+             xmlns:local="clr-namespace:AM.UI.View.RentalContract" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:converters="clr-namespace:AM.UI.Converters" xmlns:custom="clr-namespace:AM.UI.Utilities"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="AM.UI.View.RentalContract.RentalContractHome"
+             d:DesignHeight="630" d:DesignWidth="730">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <converters:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="9*" />
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="13*" />
+            <ColumnDefinition Width="13*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="4" Margin="0,0,104,0">
+            <Button Style="{StaticResource DetailsButton}"
+                    Command="{Binding RentalNav}"
+                    CommandParameter="{x:Static nav:ViewType.RentalContractAdd}"
+                    Content="Add" HorizontalAlignment="Left" Margin="27,57,0,0" VerticalAlignment="Top" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="4">
+            <TextBlock Text="Search here :" HorizontalAlignment="Left" FontSize="15" Margin="10 2 0 0" Foreground="#b0b9c6" />
+            <Grid Width="300" HorizontalAlignment="Left" Margin="10 2 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20*" />
+                    <ColumnDefinition Width="39*" />
+                    <ColumnDefinition Width="241*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0,0,20,0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+                           Panel.ZIndex="1"  Text="search by id......" x:Name="textblock"
+                           Visibility="{Binding IsText, Converter={StaticResource BoolToVis}}" Grid.ColumnSpan="2" Grid.Column="1" />
+
+                <TextBox x:Name="txtSearch" Style="{StaticResource textboxSearch}" Text="{Binding search,UpdateSourceTrigger=PropertyChanged}" Foreground="Black" Height="35"  Width="300" Grid.ColumnSpan="3" HorizontalAlignment="Left" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="8" Grid.RowSpan="4" x:Name="main">
+            <custom:LoadingSpinner
+
+                Diameter="100"
+                IsLoading="{Binding IsLoading}"
+                Thickness="5"
+                Color="Black" />
+            <TextBlock
+                    Foreground="Red"
+                    Text="{Binding ErrorMessage}"
+                    Visibility="{Binding HasMessageError, Converter={StaticResource BoolToVis}}" />
+            <DataGrid ItemsSource="{Binding Rental}"  SelectedItem="{Binding SelectRentalContract,UpdateSourceTrigger=PropertyChanged}"
+                      Visibility="{Binding HasData, Converter={StaticResource BoolToVis}}"
+                      Height="350" Style="{DynamicResource DataGridStyle1}"
+                      CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Margin="0 0 0 0" x:Name="homedata">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="Room" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding RoomName}" />
+                    <DataGridTextColumn Header="Leader" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding LeaderName}" />
+                    <DataGridTextColumn Header="Receive" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ReceiveDate}" />
+                    <DataGridTextColumn Header="Out" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding CheckOutDate}" />
+                    <DataGridTextColumn Header="RoomM" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding RoomMoney}" />
+                    <DataGridTextColumn Header="Elect" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ElectricMoney}" />
+                    <DataGridTextColumn Header="Water" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding WaterMoney}" />
+                    <DataGridTextColumn Header="SerM" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ServiceMoney}" />
+                    <DataGridTextColumn Header="Active" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding Active}" />
+                    <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.RentalUpdateNavCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="PencilOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.RentalDeleteConFirm, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+
+                                        <iconPacks:PackIconMaterial Kind="Home" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.RentalDeleteConFirm, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+
+                                        <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.RentalDeleteConFirm, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+
+                                        <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</UserControl>

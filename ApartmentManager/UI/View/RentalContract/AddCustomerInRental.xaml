@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="AM.UI.View.RentalContract.AddCustomerInRental"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:AM.UI.View.People"
+             xmlns:nav="clr-namespace:AM.UI.State.Navigators" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:rules="clr-namespace:AM.UI.State.Rules"
+             mc:Ignorable="d"
+             Style="{StaticResource Page_Style}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Label Content="ID RT" HorizontalAlignment="Left" Margin="47,67,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <TextBox Margin="149,67,391,584" Width="192" FontSize="20" Height="30" Text="{Binding IDRT, UpdateSourceTrigger=PropertyChanged}" IsEnabled="False" />
+        <Label Content="Name" HorizontalAlignment="Left" Margin="47,131,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <TextBox  HorizontalAlignment="Left" Margin="149,135,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" FontSize="20"  Validation.ErrorTemplate="{StaticResource errorTemplate}">
+            <TextBox.Text>
+                <Binding Path="name" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:WrongName />
+                        <rules:MinimumCharacterRule MinimumCharacters="25" Characters="2" nameofrule="Name" />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="Sex" HorizontalAlignment="Left" Margin="47,205,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <ComboBox HorizontalAlignment="Left"  Margin="149,209,0,0" VerticalAlignment="Top" Width="192" ItemsSource="{Binding ComboSex}" SelectedItem="{Binding sex,UpdateSourceTrigger=PropertyChanged }" FontSize="20" />
+        <Label Content="Birthday" HorizontalAlignment="Left" Margin="47,269,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <Label Content="PhoneNumber" HorizontalAlignment="Left" Margin="399,71,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <TextBox HorizontalAlignment="Left" Validation.ErrorTemplate="{StaticResource errorTemplate}" Margin="501,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" FontSize="20">
+            <TextBox.Text>
+                <Binding Path="phoneNumber" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:WrongPhoneNumber />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="399,135,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+
+        <TextBox HorizontalAlignment="Left" Validation.ErrorTemplate="{StaticResource errorTemplate}" Margin="501,139,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" FontSize="20">
+            <TextBox.Text>
+                <Binding Path="email" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:MinimumCharacterRule Characters="2" MinimumCharacters="60" nameofrule="Enail" />
+                        <rules:WrongEmail />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="IDCard" HorizontalAlignment="Left" Margin="399,209,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <TextBox HorizontalAlignment="Left" Validation.ErrorTemplate="{StaticResource errorTemplate}" Margin="501,213,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" FontSize="20">
+            <TextBox.Text>
+                <Binding Path="idcard" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:MinimumCharacterRule Characters="2" MinimumCharacters="20" nameofrule="ID Card" />
+                        <rules:ContainsSpecialCharacter NameOfRule="ID Card" />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="399,273,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FFCEB4B4" />
+        <TextBox HorizontalAlignment="Left" Validation.ErrorTemplate="{StaticResource errorTemplate}" Margin="501,277,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="192" FontSize="20">
+            <TextBox.Text>
+                <Binding Path="address" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:MinimumCharacterRule Characters="2" MinimumCharacters="100" nameofrule="Address" />
+                        <rules:ContainsSpecialCharacter NameOfRule="Address" />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Button Content="confilm" HorizontalAlignment="Left" Margin="56,340,0,0" VerticalAlignment="Top" Height="30" Width="72"
+                Command="{Binding Confirm}" RenderTransformOrigin="-0.042,0.715" />
+        <Button Content="Add" HorizontalAlignment="Left" Margin="173,340,0,0" VerticalAlignment="Top" Height="30" Width="72"
+                Command="{Binding AddList}" />
+        <Button Content="cancel" HorizontalAlignment="Left" Margin="427,338,0,0" VerticalAlignment="Top" Height="52" Width="98"
+                Command="{Binding Cancel}" CommandParameter="{x:Static nav:ViewType.Customer}" RenderTransformOrigin="0.526,0.087" />
+        <DatePicker HorizontalAlignment="Left" Margin="149,273,0,0" VerticalAlignment="Top" SelectedDate="{Binding birthday, UpdateSourceTrigger=PropertyChanged}"  Width="192" FontSize="20" />
+        <TextBlock
+            Height="30"
+            Margin="0,36,0,615"
+            AutomationProperties.AutomationId="MakeReservationSubmitErrorMessage"
+            Foreground="Red"
+            Text="{Binding SubmitErrorMessage}"
+            Visibility="{Binding HasSubmitErrorMessage, Converter={StaticResource BooleanToVisibilityConverter}}" />
+
+        <DataGrid ItemsSource="{Binding peoples}"  Margin="0,395,10,49" SelectedItem="{Binding SelectedPeople}"
+                      Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}"  x:Name="homedata">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ID}" />
+                <DataGridTextColumn Header="RoomName" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding RoomName}" />
+                <DataGridTextColumn Header="Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Sex" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Sex}" />
+                <DataGridTextColumn Header="Birthday" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Birthday}" />
+                <DataGridTextColumn Header="PhoneNumber" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding PhoneNumber}" />
+                <DataGridTextColumn Header="Email" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Email}" />
+                <DataGridTextColumn Header="IDCard" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding IDCard}" />
+                <DataGridTextColumn Header="Address" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Address}" />
+
+                <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Style="{StaticResource EditButton}"
+                                        Command="{Binding DataContext.DeleteCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                    <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                </Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

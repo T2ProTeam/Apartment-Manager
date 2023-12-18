@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Update="View\Bills\BillAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Bills\BillHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Bills\BillUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ConfirmForm\Confirm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DepositContract\DepositContractAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DepositContract\DepositContractHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DepositContract\DepositContractUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Dialog\MessageBoxCustom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Furniture\FurnitureAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Furniture\FurnitureHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Furniture\FurnitureUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Homes\HomeBillListingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Homes\HomeCustomerListingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Homes\HomePEListingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Homes\HomeRoomEmptyListingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PaymentExtension\PEHomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\People\AddCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\People\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RentalContract\RentalContractAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RentalContract\RentalContractHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RentalContract\RentalContractUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomDetails\RoomDetailsAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomDetails\RoomDetailsHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomDetails\RoomDetailsInformationCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RoomDetails\RoomDetailsShowLargeImage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Rooms\RoomAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Rooms\RoomDelete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Rooms\RoomHome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Rooms\RoomUpdate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Navigation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Statistics\StatisticsHomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\DataGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Image.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\DataTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utilities\Generic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bills\BillAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bills\BillHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Bills\BillUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ConfirmForm\Confirm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DepositContract\DepositContractAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DepositContract\DepositContractHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Dialog\InputMessage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DepositContract\DepositContractUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Dialog\MessageBoxCustom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Furniture\FurnitureAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Furniture\FurnitureHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Furniture\FurnitureUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Homes\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Homes\HomeBillListingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Homes\HomeCustomerListingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Homes\HomePEListingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Homes\HomeRoomEmptyListingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PaymentExtension\PEHomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\People\AddCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\People\Home.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RentalContract\AddCustomerInRental.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RentalContract\RentalContractAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RentalContract\RentalContractHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RentalContract\RentalContractUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RoomDetails\RoomDetailsAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RoomDetails\RoomDetailsHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RoomDetails\RoomDetailsInformationCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RoomDetails\RoomDetailsShowLargeImage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Rooms\RoomAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Rooms\RoomDelete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Rooms\RoomHome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Rooms\RoomUpdate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Navigation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Statistics\StatisticsHomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

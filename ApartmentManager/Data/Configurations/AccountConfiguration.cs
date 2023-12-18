@@ -1,4 +1,4 @@
-﻿using Entity;
+﻿using Data.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -15,10 +15,8 @@ namespace Data.Configurations
         {
             builder.ToTable("Account");
             builder.HasKey(x => x.ID);
-            builder.Property(x=>x.ID).IsRequired();
-            builder.Property(x=>x.Acc).HasMaxLength(50).IsRequired();
+            builder.Property(x => x.Acc).HasMaxLength(50).IsRequired();
             builder.Property(x => x.Pass).HasMaxLength(50).IsRequired();
-            builder.Property(x => x.Permission).HasMaxLength(50);
         }
     }
 }

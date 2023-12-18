@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="AM.UI.View.Bills.BillAdd"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:rules="clr-namespace:AM.UI.State.Rules"
+             mc:Ignorable="d"
+             d:DesignHeight="630" d:DesignWidth="730">
+    <Grid>
+        <Button Command="{Binding AddConFirm}" Style="{StaticResource DetailsButton}" Content="Add Confirm" HorizontalAlignment="Left" Margin="178,386,0,0" VerticalAlignment="Top" />
+        <Button Style="{StaticResource DetailsButton}" Content="Cancel" HorizontalAlignment="Left" Margin="409,386,0,0" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="35,221,0,0" TextWrapping="Wrap" Text="ElectricQuantity" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox HorizontalAlignment="Left" Validation.ErrorTemplate="{StaticResource errorTemplate}" Margin="216,223,0,0" Foreground="#FFEEEEEE" TextWrapping="Wrap" Name="Elec"  VerticalAlignment="Top" Width="150" Height="25" TextChanged="TextBox_TextChanged">
+            <TextBox.Text>
+                <Binding Path="ElectricQuantity" ValidatesOnDataErrors="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <rules:WrongNumber  NameofRule="Electric Quantity " />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Margin="216,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="3" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="391,218,0,0" TextWrapping="Wrap" Text="PayDate" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <DatePicker HorizontalAlignment="Left" Margin="544,219,0,0" SelectedDate="{Binding PayDate}" Foreground="#FFEEEEEE" VerticalAlignment="Top" Width="150" Height="24" />
+        <TextBox HorizontalAlignment="Left" Margin="544,249,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="2" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="37,156,0,0" TextWrapping="Wrap" Text="ID Rental" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <TextBox HorizontalAlignment="Left" Margin="216,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="3" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <ComboBox ItemsSource="{Binding comboboxforRental}" SelectedItem="{Binding SelectRental, UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="IDRental" HorizontalAlignment="Left" Margin="216,160,0,0" VerticalAlignment="Top" Width="150" />
+        <TextBlock HorizontalAlignment="Left" Margin="392,156,0,0" TextWrapping="Wrap" Text="Active" VerticalAlignment="Top" Foreground="#FFEEEEEE" FontSize="25" />
+        <ComboBox ItemsSource="{Binding comboboxActive}" SelectedItem="{Binding Active, UpdateSourceTrigger=PropertyChanged}"   HorizontalAlignment="Left" Margin="544,156,0,0" VerticalAlignment="Top" Width="150" />
+        <TextBox HorizontalAlignment="Left" Margin="544,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="2" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1" />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+    </Grid>
+</UserControl>

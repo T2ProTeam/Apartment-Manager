@@ -3,57 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UI.Utilities;
+using AM.UI.Utilities;
 using System.Windows.Input;
 using ViewModel.People;
 using ViewModel.Room;
+using System.Windows.Navigation;
+using AM.UI.Command;
+using AM.UI.ViewModelUI.Factory;
+using AM.UI.State.Navigators;
 
-namespace UI.ViewModel
+namespace AM.UI.ViewModelUI
 {
     internal class NavigationVM : ViewModelBase
     {
-        private object _currentView;
+        private readonly IAparmentViewModelFactory _viewModelFactory;
+        private readonly INavigator _navigator;
+        public ViewModelBase CurrentViewModel => _navigator.CurrentViewModel;
+        public ICommand UpdateCurrentViewModelCommand { get; }
 
-        public object CurrentView
+        public NavigationVM(INavigator navigator, IAparmentViewModelFactory viewModelFactory)
         {
-            get { return _currentView; }
-            set { _currentView = value; OnPropertyChanged(); }
+            _navigator = navigator;
+            _viewModelFactory = viewModelFactory;
+
+            _navigator.StateChanged += Navigator_StateChanged;
+
+            UpdateCurrentViewModelCommand = new UpdateCurrentViewModelCommand(navigator, _viewModelFactory);
+            UpdateCurrentViewModelCommand.Execute(ViewType.Home);
         }
 
-        public ICommand HomeCommand { get; set; }
-        public ICommand CustomersCommand { get; set; }
-        public ICommand RoomCommand { get; set; }
-        public ICommand OrdersCommand { get; set; }
-        public ICommand TransactionsCommand { get; set; }
-        public ICommand ShipmentsCommand { get; set; }
-        public ICommand SettingsCommand { get; set; }
-
-        private void Home(object obj) => CurrentView = new HomeVM();
-
-        private void Customer(object obj) => CurrentView = new CustomerVM();
-
-        private void Room(object obj) => CurrentView = new RoomVm();
-
-        private void Order(object obj) => CurrentView = new OrderVM();
-
-        private void Transaction(object obj) => CurrentView = new TransactionVM();
-
-        private void Shipment(object obj) => CurrentView = new ShipmentVM();
-
-        private void Setting(object obj) => CurrentView = new SettingVM();
-
-        public NavigationVM()
+        private void Navigator_StateChanged()
         {
-            HomeCommand = new RelayCommand(Home);
-            CustomersCommand = new RelayCommand(Customer);
-            RoomCommand = new RelayCommand(Room);
-            OrdersCommand = new RelayCommand(Order);
-            TransactionsCommand = new RelayCommand(Transaction);
-            ShipmentsCommand = new RelayCommand(Shipment);
-            SettingsCommand = new RelayCommand(Setting);
-
-            // Startup Page
-            CurrentView = new HomeVM();
+            OnPropertyChanged(nameof(CurrentViewModel));
         }
     }
 }

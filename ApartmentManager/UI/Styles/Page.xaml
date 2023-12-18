@@ -3,7 +3,9 @@
 
     <Style x:Key="Page_Style"
            TargetType="{x:Type UserControl}">
-
+        <Setter Property="Height" Value="681" />
+        <Setter Property="Width" Value="732" />
+        <Setter Property="Background" Value="#212529" />
         <Setter Property="RenderTransform">
             <Setter.Value>
                 <TranslateTransform X="0"
@@ -18,7 +20,6 @@
 
                 <Setter Property="Opacity"
                         Value="0" />
-
             </Trigger>
 
             <EventTrigger RoutedEvent="Loaded">
@@ -36,9 +37,52 @@
                     </Storyboard>
                 </BeginStoryboard>
             </EventTrigger>
-            
         </Style.Triggers>
-        
     </Style>
-    
+    <Style x:Key="PageHome_Style"
+           TargetType="{x:Type UserControl}">
+        <Setter Property="Background" Value="#212529" />
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <TranslateTransform X="0"
+                                    Y="50" />
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+
+            <Trigger Property="Visibility"
+                     Value="Collapsed">
+
+                <Setter Property="Opacity"
+                        Value="0" />
+            </Trigger>
+
+            <EventTrigger RoutedEvent="Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                         Duration="0:0:1"
+                                         From="0"
+                                         To="1" />
+                        <DoubleAnimation Storyboard.TargetProperty="(UIElement.RenderTransform).(TranslateTransform.Y)"
+                                         From="50"
+                                         To="0"
+                                         Duration="0:0:0.8"
+                                         DecelerationRatio="0.6" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Style.Triggers>
+    </Style>
+    <ControlTemplate x:Key="errorTemplate">
+        <Border BorderBrush="OrangeRed" BorderThickness="2">
+            <Grid>
+                <AdornedElementPlaceholder />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="OrangeRed"
+                               VerticalAlignment="Center" HorizontalAlignment="Right"
+                               Margin="0,0,4,0" />
+            </Grid>
+        </Border>
+    </ControlTemplate>
 </ResourceDictionary>

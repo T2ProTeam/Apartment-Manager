@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Data.Entity
 {
-    public class Account
+    public class Account : DomainObject
     {
-        public int ID { get; set; }
         public string Acc { get; set; }
         public string Pass { get; set; }
-        public int Permission { get; set; }
     }
 }

@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="AM.UI.View.Homes.HomePEListingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:nav="clr-namespace:AM.UI.ViewModelUI"
+             xmlns:local="clr-namespace:AM.UI.View.Homes" xmlns:custom="clr-namespace:AM.UI.Utilities"
+             mc:Ignorable="d"
+             d:DesignHeight="481" d:DesignWidth="732"
+              Style="{StaticResource PageHome_Style}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Button  Style="{StaticResource AddButton}"
+                     Width="100"
+                     Margin="0 0 20 0"
+                     Command="{Binding ReturnBillHomeVM}"
+                     CommandParameter="{x:Static nav:ViewHomeType.Bill}">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="Backspace" Width="15" VerticalAlignment="Center" Height="25" />
+                    <TextBlock Text=" Go Back" VerticalAlignment="Center"  HorizontalAlignment="Center" />
+                </StackPanel>
+            </Button>
+        </Grid>
+        <Grid Grid.Row="1">
+            <custom:LoadingSpinner
+                Diameter="100"
+                IsLoading="{Binding IsLoading}"
+                Thickness="5"
+                Color="Black" />
+            <DataGrid ItemsSource="{Binding ListPE}" SelectedItem="{Binding SelectedPE,UpdateSourceTrigger=PropertyChanged}" Visibility="{Binding HasData, Converter={StaticResource BoolToVis}}" Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Margin="0 20 0 0" x:Name="homedata">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="IDBill" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding IDBill}" />
+                    <DataGridTextColumn Header="Room Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding NameRoom}" />
+                    <DataGridTextColumn Header="Leader Name" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding NameLeader}" />
+                    <DataGridTextColumn Header="TotalMoney" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding TotalMoney}" />
+                    <DataGridTextColumn Header="Extension Date" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding Days}" />
+                    <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Style="{StaticResource EditButton}"
+                                        Command="{Binding DataContext.DeletePECommnad, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -10,7 +10,7 @@ namespace ViewModel.People
     public class PeopleCreateViewModel
     {
         public int ID { get; set; }
-        public int IDroom { get; set; }
+        public int IDRental { get; set; }
         public string Name { get; set; }
         public Sex Sex { get; set; }
         public DateTime Birthday { get; set; }

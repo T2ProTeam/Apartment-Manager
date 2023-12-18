@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Data.Entity
 {
-    public class PaymentExtension
+    public class PaymentExtension : DomainObject
     {
-        public int ID { get; set; }
         public int IDBill { get; set; }
         public DateTime Days { get; set; }
         public Bill? Bill { get; set; }

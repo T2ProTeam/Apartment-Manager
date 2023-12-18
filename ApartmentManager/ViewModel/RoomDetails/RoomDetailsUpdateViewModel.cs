@@ -8,7 +8,7 @@ namespace ViewModel.RoomDetails
 {
     public class RoomDetailsUpdateViewModel
     {
-        public string IDFur { get; set; }
-        public string IDRoom { get; set; }
+        public int IDFur { get; set; }
+        public int IDRoom { get; set; }
     }
 }

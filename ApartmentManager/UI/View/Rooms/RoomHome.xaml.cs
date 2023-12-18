@@ -13,26 +13,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI.View.Rooms
+namespace AM.UI.View.Rooms
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for RoomHome.xaml
     /// </summary>
     public partial class RoomHome : UserControl
     {
         public RoomHome()
-        { 
+        {
             InitializeComponent();
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
         {
-
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

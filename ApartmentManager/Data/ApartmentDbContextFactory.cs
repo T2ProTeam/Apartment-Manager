@@ -10,18 +10,21 @@ using System.IO;
 
 namespace Data
 {
-    public class ApartmentDbContextFactory : IDesignTimeDbContextFactory<AparmentDbContext>
+    public class ApartmentDbContextFactory
     {
-        public AparmentDbContext CreateDbContext(string[] args)
+        private readonly Action<DbContextOptionsBuilder> _configureDbContext;
+
+
+        public ApartmentDbContextFactory(Action<DbContextOptionsBuilder> configureDbContext)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .Build();
-            var connectionString = configuration.GetConnectionString("ApartmentDB");
-            var optionsBuilder = new DbContextOptionsBuilder<AparmentDbContext>();
-            optionsBuilder.UseSqlServer(connectionString);
-            return new AparmentDbContext(optionsBuilder.Options);
+            _configureDbContext = configureDbContext;
+        }
+
+        public AparmentDbContext CreateDbContext()
+        {
+            DbContextOptionsBuilder<AparmentDbContext> options = new DbContextOptionsBuilder<AparmentDbContext>();
+            _configureDbContext(options);
+            return new AparmentDbContext(options.Options);
         }
     }
 }

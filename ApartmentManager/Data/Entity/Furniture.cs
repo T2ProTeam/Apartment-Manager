@@ -1,14 +1,16 @@
-﻿using System;
+﻿using Data.Relationships;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Data.Entity
 {
-    public class Furniture
+    public class Furniture : DomainObject
     {
-        public int ID { get; set; }
         public string Name { get; set; }
+
+        public List<RoomDetails> RoomDeltails { get; } = new List<RoomDetails>();
     }
 }

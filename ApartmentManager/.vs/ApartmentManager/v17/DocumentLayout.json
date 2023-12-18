@@ -1,0 +1,2260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureAdd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Furniture\\FurnitureAdd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231106022312_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231106022312_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132720_DataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231030132720_DataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132659_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231030132659_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029211000_Initiall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231029211000_Initiall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231029153135_initital.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231029153135_initital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153259_dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231029153259_dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\HomeServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\HomeServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231207131352_DataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20231207131352_DataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RentalContractConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\RentalContractConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RentalContract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\RentalContract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleRentalConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\PeopleRentalConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\StatisticsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\StatisticsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\DepositsContractConfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\DepositsContractConfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Bill\\BillCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\BillConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\BillConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\RoomConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomDetailsConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\RoomDetailsConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomImageConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\RoomImageConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\StatisticsConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\StatisticsConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\PeopleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PaymentExtensionConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\PaymentExtensionConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\FurnitureConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configurations\\FurnitureConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\DepositsContract\\DepositsContractVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Bill\\BillVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Furniture\\FurnitureVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Furniture\\FurnitureVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Room\\RoomVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\AM.UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractAdd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\DepositContract\\DepositContractAdd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\RoomServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\DepositContract\\DepositContractHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\RoomHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Home\\LoadHomeCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Home\\LoadHomeCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Model\\Apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Model\\Apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomePEListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Homes\\HomePEListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeRoomEmptyListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Homes\\HomeRoomEmptyListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeCustomerListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Homes\\HomeCustomerListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\Home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Homes\\Home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeBillListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Homes\\HomeBillListingView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\ViewModel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\ViewModel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PeopleServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\PeopleServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Rooms\\RoomHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\HomeVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\HomeVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\NavigationVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\NavigationVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsProfitVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\StatisticsProfitVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticTotalMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\StatisticTotalMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IRoomImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Furniture\\FurnitureHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Room\\RoomUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Bill\\BillUpdateCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Bill\\BillUpdateCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Bill\\BillUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\UpdateRoomCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Room\\UpdateRoomCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Rooms\\RoomUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RoomStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\State\\Store\\RoomStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AddCusomerCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\AddCusomerCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IRoomDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\DepositsContractServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\DepositsContractServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadRoomView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\LoadRoomView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\DataTemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Utilities\\DataTemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\StatisticsStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\State\\Store\\StatisticsStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadStatisticsView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\LoadDataBase\\LoadStatisticsView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\RoomDeleteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Room\\RoomDeleteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BillServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\BillServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RentalContractStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\State\\Store\\RentalContractStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RentalContractServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\RentalContractServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\RentalContract\\RentalContractUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\RentalContract\\RentalContractUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Bills\\BillUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\AddRoomCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Room\\AddRoomCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Room\\RoomCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomDetailsServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\RoomDetailsServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BaseControlServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\BaseControlServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\Statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\EditGorvernmentMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\EditGorvernmentMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Relationships\\RoomDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Relationships\\RoomDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RoomImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\RoomImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\Account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\Bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\CreateGovernmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Statistics\\CreateGovernmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Statistics\\StatisticsHomeView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Statistics\\StatisticsHomeView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\EditGovernmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Statistics\\EditGovernmentCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureAddCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Furniture\\FurnitureAddCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interface\\IStatistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureDeleteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Furniture\\FurnitureDeleteCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\MoneyOfGovernment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\MoneyOfGovernment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\FurnitureHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\FurnitureHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContractHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\RentalContractHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureUpdateCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\Furniture\\FurnitureUpdateCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\BillStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\State\\Store\\BillStore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PaymentExtensionServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\PaymentExtensionServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\FurnitureServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\FurnitureServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomImageServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implement\\RoomImageServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\PaymentExtension\\PaymentExtensionVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\PaymentExtension\\PaymentExtensionVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\HomeItemVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Home\\HomeItemVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\StatisticsVm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\TotalProfitMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Statistic\\TotalProfitMoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Furniture\\FurnitureUpdate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\People.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Entity\\People.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateActiveVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Home\\UpdateActiveVM.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateElectricQuanlity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\Home\\UpdateElectricQuanlity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\People\\PeopleCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModel\\People\\PeopleUpdateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AsyncCommandBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Command\\AsyncCommandBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\AM.UI.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\View\\Bills\\BillHome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\BillHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\BillHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\ViewModelBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UI\\Utilities\\ViewModelBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FurnitureAdd.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureAdd.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Furniture\\FurnitureAdd.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureAdd.xaml",
+              "RelativeToolTip": "UI\\View\\Furniture\\FurnitureAdd.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T12:32:13.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\HomeServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\HomeServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\HomeServices.cs",
+              "RelativeToolTip": "Services\\Implement\\HomeServices.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAwK8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20231207131352_DataSeed.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231207131352_DataSeed.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231207131352_DataSeed.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231207131352_DataSeed.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231207131352_DataSeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:43.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RentalContractConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RentalContractConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\RentalContractConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RentalContractConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\RentalContractConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RentalContract.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RentalContract.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\RentalContract.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RentalContract.cs",
+              "RelativeToolTip": "Data\\Entity\\RentalContract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PeopleRentalConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleRentalConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PeopleRentalConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleRentalConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PeopleRentalConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\StatisticsService.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\StatisticsService.cs",
+              "RelativeToolTip": "Services\\Implement\\StatisticsService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADgvzQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepositsContractConfigurations.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\DepositsContractConfigurations.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\DepositsContractConfigurations.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\DepositsContractConfigurations.cs",
+              "RelativeToolTip": "Data\\Configurations\\DepositsContractConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BillCreateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Bill\\BillCreateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillCreateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Bill\\BillCreateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BillConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\BillConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\BillConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\BillConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\BillConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\RoomConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\RoomConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoomDetailsConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomDetailsConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\RoomDetailsConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomDetailsConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\RoomDetailsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoomImageConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomImageConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\RoomImageConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\RoomImageConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\RoomImageConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StatisticsConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\StatisticsConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\StatisticsConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\StatisticsConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\StatisticsConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PeopleConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PeopleConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PeopleConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PeopleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PaymentExtensionConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PaymentExtensionConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PaymentExtensionConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\PaymentExtensionConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PaymentExtensionConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FurnitureConfiguration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\FurnitureConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\FurnitureConfiguration.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Configurations\\FurnitureConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\FurnitureConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DepositsContractUpdateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DepositsContract\\DepositsContractUpdateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DepositsContractVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DepositsContract\\DepositsContractVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\DepositsContract\\DepositsContractVm.cs",
+              "RelativeToolTip": "ViewModel\\DepositsContract\\DepositsContractVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BillVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Bill\\BillVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillVm.cs",
+              "RelativeToolTip": "ViewModel\\Bill\\BillVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FurnitureVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Furniture\\FurnitureVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Furniture\\FurnitureVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Furniture\\FurnitureVm.cs",
+              "RelativeToolTip": "ViewModel\\Furniture\\FurnitureVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Room\\RoomVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomVm.cs",
+              "RelativeToolTip": "ViewModel\\Room\\RoomVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddDbContextHostBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs",
+              "RelativeToolTip": "UI\\HostBuilderExtension\\AddDbContextHostBuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddServicesHostBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs",
+              "RelativeToolTip": "UI\\HostBuilderExtension\\AddServicesHostBuilderExtensions.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AM.UI.csproj",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj",
+              "RelativeDocumentMoniker": "UI\\AM.UI.csproj",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj",
+              "RelativeToolTip": "UI\\AM.UI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-09T11:33:44.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddConfigurationHostBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs",
+              "RelativeToolTip": "UI\\HostBuilderExtension\\AddConfigurationHostBuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DepositContractAddVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\DepositContract\\DepositContractAddVMUI.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwG8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DepositContractHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\DepositContract\\DepositContractHomeVMUI.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwGgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DepositContractAdd.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractAdd.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\DepositContract\\DepositContractAdd.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractAdd.xaml",
+              "RelativeToolTip": "UI\\View\\DepositContract\\DepositContractAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RoomServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\RoomServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomServices.cs",
+              "RelativeToolTip": "Services\\Implement\\RoomServices.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAqwFAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DepositContractUpdateVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\DepositContract\\DepositContractUpdateVMUI.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DepositContractHome.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractHome.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\DepositContract\\DepositContractHome.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\DepositContract\\DepositContractHome.xaml",
+              "RelativeToolTip": "UI\\View\\DepositContract\\DepositContractHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RoomUpdateVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Room\\RoomUpdateVMUI.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAkwF4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RoomHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\RoomHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\RoomHomeVMUI.cs",
+              "ViewState": "AQIAABUBAAAAAAAAAAAcwCcBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoadHomeCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Home\\LoadHomeCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Home\\LoadHomeCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Home\\LoadHomeCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Home\\LoadHomeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AparmentViewModelFactory.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Factory\\AparmentViewModelFactory.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvygAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Apartment.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Model\\Apartment.cs",
+              "RelativeDocumentMoniker": "UI\\Model\\Apartment.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Model\\Apartment.cs",
+              "RelativeToolTip": "UI\\Model\\Apartment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HomePaymentListtingVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Homes\\HomePaymentListtingVMUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HomePEListingView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomePEListingView.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Homes\\HomePEListingView.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomePEListingView.xaml",
+              "RelativeToolTip": "UI\\View\\Homes\\HomePEListingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HomeRoomEmptyListingView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeRoomEmptyListingView.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Homes\\HomeRoomEmptyListingView.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeRoomEmptyListingView.xaml",
+              "RelativeToolTip": "UI\\View\\Homes\\HomeRoomEmptyListingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HomeEmptyRoomListtingVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Homes\\HomeEmptyRoomListtingVMUI.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAMwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HomeViewDetailCustomerVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Homes\\HomeViewDetailCustomerVMUI.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwDQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "HomeCustomerListingView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeCustomerListingView.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Homes\\HomeCustomerListingView.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeCustomerListingView.xaml",
+              "RelativeToolTip": "UI\\View\\Homes\\HomeCustomerListingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\Home.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Homes\\Home.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\Home.xaml",
+              "RelativeToolTip": "UI\\View\\Homes\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HomeBillListingView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeBillListingView.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Homes\\HomeBillListingView.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Homes\\HomeBillListingView.xaml",
+              "RelativeToolTip": "UI\\View\\Homes\\HomeBillListingView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "StatisticsHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Statistics\\StatisticsHomeVMUI.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAYwMIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ViewModel.csproj",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\ViewModel.csproj",
+              "RelativeDocumentMoniker": "ViewModel\\ViewModel.csproj",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\ViewModel.csproj",
+              "RelativeToolTip": "ViewModel\\ViewModel.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-09T11:33:44.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AddStoresHostBuilderExtensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs",
+              "RelativeToolTip": "UI\\HostBuilderExtension\\AddStoresHostBuilderExtensions.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwDMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "RoomDeleteVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Room\\RoomDeleteVMUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "LoadAllCombobox.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs",
+              "RelativeToolTip": "UI\\Command\\LoadDataBase\\LoadCombobox\\LoadAllCombobox.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAYwF8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PeopleServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PeopleServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\PeopleServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PeopleServices.cs",
+              "RelativeToolTip": "Services\\Implement\\PeopleServices.cs",
+              "ViewState": "AQIAANEAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "RoomHome.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomHome.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Rooms\\RoomHome.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomHome.xaml",
+              "RelativeToolTip": "UI\\View\\Rooms\\RoomHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "LoadRoomDetailsView.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs",
+              "RelativeToolTip": "UI\\Command\\LoadDataBase\\LoadRoomDetailsView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\HomeVM.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\HomeVM.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\HomeVM.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\HomeVM.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "NavigationVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\NavigationVM.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\NavigationVM.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\NavigationVM.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\NavigationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "StatisticsProfitVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsProfitVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\StatisticsProfitVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsProfitVm.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\StatisticsProfitVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "StatisticTotalMoney.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticTotalMoney.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\StatisticTotalMoney.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticTotalMoney.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\StatisticTotalMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IRoomImage.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomImage.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IRoomImage.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomImage.cs",
+              "RelativeToolTip": "Services\\Interface\\IRoomImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "FurnitureHome.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureHome.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Furniture\\FurnitureHome.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureHome.xaml",
+              "RelativeToolTip": "UI\\View\\Furniture\\FurnitureHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "RoomUpdateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Room\\RoomUpdateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomUpdateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Room\\RoomUpdateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BillUpdateCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Bill\\BillUpdateCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Bill\\BillUpdateCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Bill\\BillUpdateCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Bill\\BillUpdateCommand.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvygAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "BillUpdateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Bill\\BillUpdateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Bill\\BillUpdateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Bill\\BillUpdateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UpdateRoomCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\UpdateRoomCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Room\\UpdateRoomCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\UpdateRoomCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Room\\UpdateRoomCommand.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "RoomUpdate.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomUpdate.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Rooms\\RoomUpdate.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Rooms\\RoomUpdate.xaml",
+              "RelativeToolTip": "UI\\View\\Rooms\\RoomUpdate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RoomStore.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RoomStore.cs",
+              "RelativeDocumentMoniker": "UI\\State\\Store\\RoomStore.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RoomStore.cs",
+              "RelativeToolTip": "UI\\State\\Store\\RoomStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AddCusomerCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AddCusomerCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\AddCusomerCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AddCusomerCommand.cs",
+              "RelativeToolTip": "UI\\Command\\AddCusomerCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IRoom.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoom.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IRoom.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoom.cs",
+              "RelativeToolTip": "Services\\Interface\\IRoom.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IRoomDetails.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomDetails.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IRoomDetails.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IRoomDetails.cs",
+              "RelativeToolTip": "Services\\Interface\\IRoomDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DepositsContractServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\DepositsContractServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\DepositsContractServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\DepositsContractServices.cs",
+              "RelativeToolTip": "Services\\Implement\\DepositsContractServices.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Room.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\Room.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Room.cs",
+              "RelativeToolTip": "Data\\Entity\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "LoadRoomView.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadRoomView.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\LoadRoomView.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadRoomView.cs",
+              "RelativeToolTip": "UI\\Command\\LoadRoomView.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvyAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DataTemplate.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\DataTemplate.xaml",
+              "RelativeDocumentMoniker": "UI\\Utilities\\DataTemplate.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\DataTemplate.xaml",
+              "RelativeToolTip": "UI\\Utilities\\DataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "StatisticsStore.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\StatisticsStore.cs",
+              "RelativeDocumentMoniker": "UI\\State\\Store\\StatisticsStore.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\StatisticsStore.cs",
+              "RelativeToolTip": "UI\\State\\Store\\StatisticsStore.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwv0cAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "LoadStatisticsView.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadStatisticsView.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\LoadDataBase\\LoadStatisticsView.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\LoadDataBase\\LoadStatisticsView.cs",
+              "RelativeToolTip": "UI\\Command\\LoadDataBase\\LoadStatisticsView.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwC0AAAB+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "RoomDeleteCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\RoomDeleteCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Room\\RoomDeleteCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\RoomDeleteCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Room\\RoomDeleteCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BillServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BillServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\BillServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BillServices.cs",
+              "RelativeToolTip": "Services\\Implement\\BillServices.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAhwCEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AddCustomerInRentalCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs",
+              "RelativeToolTip": "UI\\Command\\RentalContract\\AddCustomerInRentalCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RentalContractStore.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RentalContractStore.cs",
+              "RelativeDocumentMoniker": "UI\\State\\Store\\RentalContractStore.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\RentalContractStore.cs",
+              "RelativeToolTip": "UI\\State\\Store\\RentalContractStore.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowF8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UpdateRentalContractCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs",
+              "RelativeToolTip": "UI\\Command\\RentalContract\\UpdateRentalContractCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "RentalContractServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RentalContractServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\RentalContractServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RentalContractServices.cs",
+              "RelativeToolTip": "Services\\Implement\\RentalContractServices.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAkwEcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RentalContractUpdate.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\RentalContract\\RentalContractUpdate.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\RentalContract\\RentalContractUpdate.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\RentalContract\\RentalContractUpdate.xaml",
+              "RelativeToolTip": "UI\\View\\RentalContract\\RentalContractUpdate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "BillUpdate.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillUpdate.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Bills\\BillUpdate.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillUpdate.xaml",
+              "RelativeToolTip": "UI\\View\\Bills\\BillUpdate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "BillUpdateVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Bills\\BillUpdateVMUI.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwEQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "RentalContractUpdateVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\RentalContract\\RentalContractUpdateVMUI.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAswD8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "AddRoomCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\AddRoomCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Room\\AddRoomCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Room\\AddRoomCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Room\\AddRoomCommand.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwCQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "RoomCreateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Room\\RoomCreateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Room\\RoomCreateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Room\\RoomCreateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "RoomDetailsServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomDetailsServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\RoomDetailsServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomDetailsServices.cs",
+              "RelativeToolTip": "Services\\Implement\\RoomDetailsServices.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "BaseControlServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BaseControlServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\BaseControlServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\BaseControlServices.cs",
+              "RelativeToolTip": "Services\\Implement\\BaseControlServices.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAEwEUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Statistics.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Statistics.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\Statistics.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Statistics.cs",
+              "RelativeToolTip": "Data\\Entity\\Statistics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "EditGorvernmentMoney.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\EditGorvernmentMoney.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\EditGorvernmentMoney.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\EditGorvernmentMoney.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\EditGorvernmentMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "RoomDetails.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Relationships\\RoomDetails.cs",
+              "RelativeDocumentMoniker": "Data\\Relationships\\RoomDetails.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Relationships\\RoomDetails.cs",
+              "RelativeToolTip": "Data\\Relationships\\RoomDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "RoomImage.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RoomImage.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\RoomImage.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\RoomImage.cs",
+              "RelativeToolTip": "Data\\Entity\\RoomImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Account.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\Account.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Account.cs",
+              "RelativeToolTip": "Data\\Entity\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Bill.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\Bill.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\Bill.cs",
+              "RelativeToolTip": "Data\\Entity\\Bill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "CreateGovernmentCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\CreateGovernmentCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Statistics\\CreateGovernmentCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\CreateGovernmentCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Statistics\\CreateGovernmentCommand.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "StatisticsHomeView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Statistics\\StatisticsHomeView.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Statistics\\StatisticsHomeView.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Statistics\\StatisticsHomeView.xaml",
+              "RelativeToolTip": "UI\\View\\Statistics\\StatisticsHomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "EditGovernmentCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\EditGovernmentCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Statistics\\EditGovernmentCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Statistics\\EditGovernmentCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Statistics\\EditGovernmentCommand.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAewBQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "FurnitureAddCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureAddCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Furniture\\FurnitureAddCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureAddCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Furniture\\FurnitureAddCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "IStatistics.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IStatistics.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IStatistics.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Interface\\IStatistics.cs",
+              "RelativeToolTip": "Services\\Interface\\IStatistics.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "FurnitureDeleteCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureDeleteCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Furniture\\FurnitureDeleteCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureDeleteCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Furniture\\FurnitureDeleteCommand.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "StatisticsCreateProfitMoney.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\StatisticsCreateProfitMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "MoneyOfGovernment.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\MoneyOfGovernment.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\MoneyOfGovernment.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\MoneyOfGovernment.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\MoneyOfGovernment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-09T11:33:44.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "HomeBillListingViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Homes\\HomeBillListingViewModel.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAcwKYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "FurnitureHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\FurnitureHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\FurnitureHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\FurnitureHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\FurnitureHomeVMUI.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAiwIoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "AddViewModelHostBuilder.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs",
+              "RelativeDocumentMoniker": "UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs",
+              "RelativeToolTip": "UI\\HostBuilderExtension\\AddViewModelHostBuilder.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "RentalContractHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContractHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\RentalContractHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RentalContractHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\RentalContractHomeVMUI.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "FurnitureUpdateCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureUpdateCommand.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\Furniture\\FurnitureUpdateCommand.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\Furniture\\FurnitureUpdateCommand.cs",
+              "RelativeToolTip": "UI\\Command\\Furniture\\FurnitureUpdateCommand.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAArwCkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "BillStore.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\BillStore.cs",
+              "RelativeDocumentMoniker": "UI\\State\\Store\\BillStore.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\State\\Store\\BillStore.cs",
+              "RelativeToolTip": "UI\\State\\Store\\BillStore.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAADwvzwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "PaymentExtensionServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PaymentExtensionServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\PaymentExtensionServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\PaymentExtensionServices.cs",
+              "RelativeToolTip": "Services\\Implement\\PaymentExtensionServices.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAADwv2gAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "FurnitureServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\FurnitureServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\FurnitureServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\FurnitureServices.cs",
+              "RelativeToolTip": "Services\\Implement\\FurnitureServices.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "RoomImageServices.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomImageServices.cs",
+              "RelativeDocumentMoniker": "Services\\Implement\\RoomImageServices.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Services\\Implement\\RoomImageServices.cs",
+              "RelativeToolTip": "Services\\Implement\\RoomImageServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "PaymentExtensionVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\PaymentExtension\\PaymentExtensionVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PaymentExtension\\PaymentExtensionVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\PaymentExtension\\PaymentExtensionVm.cs",
+              "RelativeToolTip": "ViewModel\\PaymentExtension\\PaymentExtensionVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "HomeItemVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\HomeItemVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Home\\HomeItemVM.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\HomeItemVM.cs",
+              "RelativeToolTip": "ViewModel\\Home\\HomeItemVM.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "StatisticsVm.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\StatisticsVm.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\StatisticsVm.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\StatisticsVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "TotalProfitMoney.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\TotalProfitMoney.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Statistic\\TotalProfitMoney.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Statistic\\TotalProfitMoney.cs",
+              "RelativeToolTip": "ViewModel\\Statistic\\TotalProfitMoney.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "FurnitureUpdate.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureUpdate.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Furniture\\FurnitureUpdate.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Furniture\\FurnitureUpdate.xaml",
+              "RelativeToolTip": "UI\\View\\Furniture\\FurnitureUpdate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:44.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "FurnitureUpdateVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\Furnitures\\FurnitureUpdateVMUI.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "People.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\People.cs",
+              "RelativeDocumentMoniker": "Data\\Entity\\People.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Entity\\People.cs",
+              "RelativeToolTip": "Data\\Entity\\People.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "UpdateActiveVM.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateActiveVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Home\\UpdateActiveVM.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateActiveVM.cs",
+              "RelativeToolTip": "ViewModel\\Home\\UpdateActiveVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "UpdateElectricQuanlity.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateElectricQuanlity.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Home\\UpdateElectricQuanlity.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\Home\\UpdateElectricQuanlity.cs",
+              "RelativeToolTip": "ViewModel\\Home\\UpdateElectricQuanlity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "PeopleCreateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleCreateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\People\\PeopleCreateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleCreateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\People\\PeopleCreateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "PeopleUpdateViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleUpdateViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\People\\PeopleUpdateViewModel.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\ViewModel\\People\\PeopleUpdateViewModel.cs",
+              "RelativeToolTip": "ViewModel\\People\\PeopleUpdateViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "AsyncCommandBase.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AsyncCommandBase.cs",
+              "RelativeDocumentMoniker": "UI\\Command\\AsyncCommandBase.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Command\\AsyncCommandBase.cs",
+              "RelativeToolTip": "UI\\Command\\AsyncCommandBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:44.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "AM.UI.csproj",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj",
+              "RelativeDocumentMoniker": "UI\\AM.UI.csproj",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\AM.UI.csproj",
+              "RelativeToolTip": "UI\\AM.UI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-12-09T11:33:44.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "BillHome.xaml",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillHome.xaml",
+              "RelativeDocumentMoniker": "UI\\View\\Bills\\BillHome.xaml",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\View\\Bills\\BillHome.xaml",
+              "RelativeToolTip": "UI\\View\\Bills\\BillHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-09T11:33:45.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "BillHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\BillHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\BillHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\BillHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\BillHomeVMUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:45.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "RoomDetailsHomeVMUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs",
+              "RelativeDocumentMoniker": "UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs",
+              "RelativeToolTip": "UI\\ViewModelUI\\RoomDetails\\RoomDetailsHomeVMUI.cs",
+              "ViewState": "AQIAAEYBAAAAAAAAAAAgwIoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:45.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "UI\\Utilities\\ViewModelBase.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\Utilities\\ViewModelBase.cs",
+              "RelativeToolTip": "UI\\Utilities\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-09T11:33:45.088Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20231029153135_initital.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231029153135_initital.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231029153135_initital.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T15:31:36.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20231106022312_Initial.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231106022312_Initial.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231106022312_Initial.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231106022312_Initial.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231106022312_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-06T02:23:12.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20231030132720_DataSeed.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132720_DataSeed.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231030132720_DataSeed.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132720_DataSeed.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231030132720_DataSeed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-30T13:27:20.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20231030132659_Initial.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132659_Initial.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231030132659_Initial.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231030132659_Initial.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231030132659_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-30T13:26:59.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20231029211000_Initiall.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029211000_Initiall.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231029211000_Initiall.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029211000_Initiall.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231029211000_Initiall.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T21:10:01.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomHome.g.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs",
+              "RelativeDocumentMoniker": "UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs",
+              "RelativeToolTip": "UI\\obj\\Debug\\net7.0-windows\\View\\Rooms\\RoomHome.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T21:00:50.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Data\\obj\\Debug\\net7.0\\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T20:49:52.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Data.AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs",
+              "RelativeToolTip": "Data\\obj\\Debug\\net7.0\\Data.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T20:47:00.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20231029153135_initital.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.Designer.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231029153135_initital.Designer.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153135_initital.Designer.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231029153135_initital.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T20:01:59.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20231029153259_dataseed.cs",
+              "DocumentMoniker": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153259_dataseed.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20231029153259_dataseed.cs",
+              "ToolTip": "D:\\GitHub\\Apartment-Manager\\Apartment-Manager\\ApartmentManager\\Data\\Migrations\\20231029153259_dataseed.cs",
+              "RelativeToolTip": "Data\\Migrations\\20231029153259_dataseed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-29T15:32:59.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

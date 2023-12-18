@@ -1,0 +1,81 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:AM.UI.View.Furniture"
+             xmlns:nav="clr-namespace:AM.UI.State.Navigators"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:converters="clr-namespace:AM.UI.Converters" x:Class="AM.UI.View.Furniture.FurnitureHome"
+             mc:Ignorable="d"
+
+             d:DesignHeight="630" d:DesignWidth="730">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <converters:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter" />
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="3">
+            <Button Style="{StaticResource DetailsButton}"
+                    Command="{Binding FurnitureNav}"
+                     CommandParameter="{x:Static nav:ViewType.FurnituresAdd}"
+                    Content="Add" HorizontalAlignment="Left" Margin="27,57,0,0" VerticalAlignment="Top" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="4">
+            <TextBlock Text="Search here :" HorizontalAlignment="Left" FontSize="15" Margin="10 2 0 0" Foreground="#b0b9c6" />
+            <Grid Width="300" HorizontalAlignment="Left" Margin="10 2 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20*" />
+                    <ColumnDefinition Width="39*" />
+                    <ColumnDefinition Width="241*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0,0,20,0" VerticalAlignment="Center" Foreground="#b0b9c6" IsHitTestVisible="False"
+                           Panel.ZIndex="1"  Text="search by id......" x:Name="textblock"
+                           Visibility="{Binding IsText, Converter={StaticResource BoolToVis}}" Grid.ColumnSpan="2" Grid.Column="1" />
+
+                <TextBox x:Name="txtSearch" Style="{StaticResource textboxSearch}" Text="{Binding search,UpdateSourceTrigger=PropertyChanged}" Foreground="Black" Height="35"  Width="300" Grid.ColumnSpan="3" HorizontalAlignment="Left" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="7" Grid.RowSpan="4" x:Name="main">
+            <DataGrid ItemsSource="{Binding Fur}" SelectedItem="{Binding SelectFurniture,UpdateSourceTrigger=PropertyChanged}" Height="350" Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Margin="0 0 0 0" x:Name="homedata">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="*" Binding="{Binding ID}" />
+                    <DataGridTextColumn Header="Name" IsReadOnly="True" CanUserResize="False" Width="*"  Binding="{Binding Name}" />
+                    <DataGridTemplateColumn Header="Operation" IsReadOnly="True" Width="auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.FurnitureUpdateNav, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="PencilOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                    <Button Style="{StaticResource EditButton}"
+                                             Command="{Binding DataContext.DeleteConFirm, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}">
+                                        <iconPacks:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource ButtonIcon}" />
+                                    </Button>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</UserControl>

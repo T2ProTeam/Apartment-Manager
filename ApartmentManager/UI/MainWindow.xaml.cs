@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace AM.UI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,8 +23,8 @@ namespace UI
         public MainWindow()
         {
             InitializeComponent();
-        }
 
+        }
         private void CloseApp_Click(object sender, RoutedEventArgs e)
         {
             Close();

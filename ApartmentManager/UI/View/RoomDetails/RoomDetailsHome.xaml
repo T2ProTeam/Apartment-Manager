@@ -1,0 +1,132 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:nav="clr-namespace:AM.UI.State.Navigators"
+             xmlns:local="clr-namespace:AM.UI.View.RoomDetails" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:converters="clr-namespace:AM.UI.Converters" xmlns:custom="clr-namespace:AM.UI.Utilities"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="AM.UI.View.RoomDetails.RoomDetailsHome"
+             mc:Ignorable="d"
+             d:DesignHeight="630" d:DesignWidth="730">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <converters:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter" />
+        <converters:StringToImageSourceConverter x:Key="StringToImageSourceConverter" />
+    </UserControl.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="2">
+            <ListView ItemsSource="{Binding RoomDetails}" SelectedItem="{Binding SelectListViewFurniture,UpdateSourceTrigger=PropertyChanged}" Foreground="White" Grid.ColumnSpan="3" Margin="16,26,0,79" Grid.RowSpan="3" HorizontalAlignment="Left" Width="175" Height="278">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn  Header="Funiture" HeaderContainerStyle="{StaticResource HeaderOfListView}"  Width="120" DisplayMemberBinding="{Binding NameFurniture}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <Label Content="Information" Foreground="HotPink"  HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="30" ></Label>
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <Label Content="ID Room" Foreground="White"   Margin="1,20,0,0"></Label>
+                <TextBlock Text="{Binding LoadInformationRoom.ID}" TextAlignment="Center" Background="#212529" Foreground="Red" Width="100" Height="18" Margin="70,-30,0,0" ></TextBlock>
+                <TextBlock Width="100" Height="2" Margin="70,0,0,0" Background="White"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2">
+                <Label Content="Leader Name" Foreground="White"  Margin="1,20,0,0"></Label>
+                <TextBlock  Text="{Binding LoadInformationRoom.NameLeader}" TextAlignment="Center" Background="#212529" Foreground="Red" Width="100" Height="18" Margin="70,-30,0,0"></TextBlock>
+                <TextBlock Width="100" Height="2" Margin="70,0,0,0" Background="White"></TextBlock>
+                <Button Style="{StaticResource NoBorderButton}" Content="Details Customer" Command="{Binding RoomDetailsNavToCustomerInfor}" />
+            </StackPanel>
+            <StackPanel Grid.Row="3">
+                <Label Content="Name of Room" Foreground="White"  Margin="1,20,0,0"></Label>
+                <TextBlock  Text="{Binding LoadInformationRoom.Name}" TextAlignment="Center" Background="#212529" Foreground="Red" Width="100" Height="18" Margin="70,-30,0,0"></TextBlock>
+                <TextBlock Width="100" Height="2" Margin="70,0,0,0" Background="White"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="4">
+                <Label Content="Quantity" Foreground="White"  Margin="1,20,0,0"></Label>
+                <TextBlock  Text="{Binding LoadInformationRoom.Quantity}" TextAlignment="Center" Background="#212529" Foreground="Red" Width="100" Height="18" Margin="70,-30,0,0"></TextBlock>
+                <TextBlock Width="100" Height="2" Margin="70,0,0,0" Background="White"></TextBlock>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="3" Grid.RowSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Margin="155,20,0,78" Grid.RowSpan="2">
+                <Button
+            Style="{StaticResource DetailsButton}" Visibility="{Binding FlagImage, Converter={StaticResource BoolToVis}}"
+            Command="{Binding DeleteImageCommand}" Grid.Column="5" Content="Delete Image" HorizontalAlignment="Left"   Grid.Row="3" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="163" />
+            </StackPanel>
+            <StackPanel Grid.Row="0" Margin="-5,20,0,0">
+                <Button Style="{StaticResource DetailsButton}"  Visibility="{Binding FlagImage, Converter={StaticResource BoolToVis}}"
+                Command="{Binding ShowLargeImageNav}"
+                Grid.Column="5" Content="Large Image" HorizontalAlignment="Left"  Grid.Row="2" Grid.ColumnSpan="2" Width="163" RenderTransformOrigin="0.464,-2.241" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+                <Button Style="{StaticResource DetailsButton}" Command="{Binding AddFurnitureConFirm}"
+                Grid.Column="5" Content="Add Furniture" HorizontalAlignment="Left"  Width="163"  Margin="-3,20,0,0" />
+                <ComboBox ItemsSource="{Binding comboBoxfurniture}" SelectedItem="{Binding SelectedFurniture,UpdateSourceTrigger=PropertyChanged}"  Width="120" Margin="170,-30,0,0" VerticalAlignment="Top" DisplayMemberPath="Name" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <Button Command="{Binding DeleteFurnitureConFirm}" Visibility="{Binding FlagFurniture, Converter={StaticResource BoolToVis}}"
+                        Style="{StaticResource DetailsButton}" Content="Delete Furniture" Margin="-155,20,0,0">
+                </Button>
+            </StackPanel>
+
+            <StackPanel Grid.Row="3" Margin="0,15,0,0">
+                <Button  Style="{StaticResource DetailsButton}"
+                     Command="{Binding RoomDetailsAddImageNav}"
+                     Content="Add Images" Width="325" />
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="3"  Grid.ColumnSpan="8"  Grid.RowSpan="3">
+            <ListBox SelectedItem="{Binding RoomImages,UpdateSourceTrigger=PropertyChanged}"  ItemsSource="{Binding RoomDetailsImage,UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.ColumnSpan="5" Grid.RowSpan="4" Height="NaN" Width="NaN" Margin="16,52,10,18">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding Url,Converter={StaticResource StringToImageSourceConverter}}"  Width="200" Height="300">
+                        </Image>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

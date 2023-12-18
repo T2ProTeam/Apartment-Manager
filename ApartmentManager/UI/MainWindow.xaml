@@ -1,16 +1,15 @@
-﻿<!--/// <Summary>
-    /// Author : R. Arun Mutharasu
-    /// Created :25-08-2022
-    /// YouTube Channel : C# Design Pro
-    /// </Summary>-->
-
-<Window x:Class="UI.MainWindow"
+﻿<Window x:Class="AM.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:UI.ViewModel"
-        xmlns:Menu="clr-namespace:UI.Utilities"
+        xmlns:Menu="clr-namespace:AM.UI.Utilities"
+         xmlns:nav="clr-namespace:AM.UI.State.Navigators"
+        xmlns:converters="clr-namespace:AM.UI.Converters"
+        xmlns:vm="clr-namespace:AM.UI.ViewModelUI"
+        xmlns:vmstatistics="clr-namespace:AM.UI.ViewModelUI.Statistics"
+        xmlns:vmdeposit="clr-namespace:AM.UI.ViewModelUI.DepositContract"
+
         mc:Ignorable="d"
         Title="MainWindow"
         Height="680"
@@ -19,10 +18,9 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="Transparent">
-
-    <Window.DataContext>
-        <vm:NavigationVM />
-    </Window.DataContext>
+    <Window.Resources>
+        <converters:EqualValueToParameterConverter x:Key="EqualValueToParameterConverter" />
+    </Window.Resources>
 
     <Grid>
 
@@ -49,18 +47,19 @@
                         CornerRadius="20,0,0,20" />
 
                 <StackPanel
-                            Width="230" Margin="0,100,0,160">
+                            Width="230" Margin="0,100,0,67">
 
                     <!--// Home //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding HomeCommand}"
-                              IsChecked="True">
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Home}"
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vm:HomeVM}}">
 
                         <Grid>
 
-                            <Image
-                                   Style="{StaticResource Image_Style}" Source="/Images/img_home.png" />
+                            <Image x:Name="images"
+                                   Style="{StaticResource Image_Style}" />
 
                             <TextBlock Text="Home"
                                        Style="{StaticResource Text_Style}" />
@@ -70,8 +69,8 @@
                     <!--// Customer //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding CustomersCommand}">
-
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Customer}">
                         <Grid>
 
                             <Image Source="Images/icon/img_customer.png"
@@ -85,7 +84,10 @@
                     <!--// Products //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding RoomCommand}">
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Room}"
+
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vm:RoomHomeVMUI}}">
 
                         <Grid>
 
@@ -100,29 +102,33 @@
                     <!--// Orders //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding OrdersCommand}">
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.RentalContract}"
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vm:RentalContractHomeVMUI}}">
 
                         <Grid>
 
                             <Image Source="/Images/img_order.png"
                                    Style="{StaticResource Image_Style}" />
 
-                            <TextBlock Text="Orders"
-                                       Style="{StaticResource Text_Style}" />
+                            <TextBlock Text="Rental Contract"
+                                       Style="{StaticResource Text_Style}" HorizontalAlignment="Stretch" Margin="70,0,26,0" />
                         </Grid>
                     </Menu:Btn>
 
                     <!--// Transactions //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding TransactionsCommand}">
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Bill}"
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vm:BillHomeVMUI}}">
 
                         <Grid>
 
                             <Image Source="/Images/img_transaction.png"
                                    Style="{StaticResource Image_Style}" />
 
-                            <TextBlock Text="Transactions"
+                            <TextBlock Text="Bills"
                                        Style="{StaticResource Text_Style}" />
                         </Grid>
                     </Menu:Btn>
@@ -130,14 +136,17 @@
                     <!--// Shipments //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding ShipmentsCommand}">
+                              Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Furnitures}"
+
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vm:FurnitureHomeVMUI}}">
 
                         <Grid>
 
                             <Image Source="/Images/img_shipment.png"
                                    Style="{StaticResource Image_Style}" />
 
-                            <TextBlock Text="Shipments"
+                            <TextBlock Text="Furniture"
                                        Style="{StaticResource Text_Style}" />
                         </Grid>
                     </Menu:Btn>
@@ -145,14 +154,33 @@
                     <!--// Settings //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding SettingsCommand}">
+                               Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.DepositContract}"
+
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vmdeposit:DepositContractHomeVMUI}}">
 
                         <Grid>
 
                             <Image Source="/Images/img_setting.png"
                                    Style="{StaticResource Image_Style}" />
 
-                            <TextBlock Text="Settings"
+                            <TextBlock Text="DepositContract"
+                                       Style="{StaticResource Text_Style}" />
+                        </Grid>
+                    </Menu:Btn>
+
+                    <Menu:Btn Style="{StaticResource BtnStyle}"
+                               Command="{Binding UpdateCurrentViewModelCommand}"
+                              CommandParameter="{x:Static nav:ViewType.Statistics}"
+
+                              IsChecked="{Binding CurrentViewModel, Mode=OneWay, Converter={StaticResource EqualValueToParameterConverter}, ConverterParameter={x:Type vmstatistics:StatisticsHomeVMUI}}">
+
+                        <Grid>
+
+                            <Image Source="/Images/img_setting.png"
+                                   Style="{StaticResource Image_Style}" />
+
+                            <TextBlock Text="Statistics"
                                        Style="{StaticResource Text_Style}" />
                         </Grid>
                     </Menu:Btn>
@@ -160,9 +188,13 @@
             </Grid>
 
             <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="297*" />
+                    <RowDefinition Height="383*" />
+                </Grid.RowDefinitions>
 
                 <ContentControl x:Name="Pages"
-                                Content="{Binding CurrentView}" />
+                                Content="{Binding CurrentViewModel}" Grid.RowSpan="2" />
             </Grid>
         </Grid>
         <Button x:Name="CloseApp"

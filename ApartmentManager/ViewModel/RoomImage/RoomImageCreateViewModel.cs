@@ -10,7 +10,10 @@ namespace ViewModel.RoomImage
     {
         public int ID { get; set; }
         public int IDroom { get; set; }
+
+        public string FileName { get; set; }
         public string Name { get; set; }
         public string Url { get; set; }
+
     }
 }

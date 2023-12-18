@@ -1,37 +1,140 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:vm="clr-namespace:UI.ViewModel"
+                    xmlns:vm="clr-namespace:AM.UI.ViewModelUI"
+                    xmlns:vma="clr-namespace:AM.UI.ViewModelUI"
+                    xmlns:vmr="clr-namespace:AM.UI.ViewModelUI.Room"
+                    xmlns:vmrd="clr-namespace:AM.UI.ViewModelUI.RoomDetails"
+                    xmlns:vmrf="clr-namespace:AM.UI.ViewModelUI.Furnitures"
+                    xmlns:vmpeople="clr-namespace:AM.UI.ViewModelUI.Customer"
+                    xmlns:vmdeposit="clr-namespace:AM.UI.ViewModelUI.DepositContract"
+                    xmlns:vmrental="clr-namespace:AM.UI.ViewModelUI.RentalContract"
+                    xmlns:vmbill="clr-namespace:AM.UI.ViewModelUI.Bills"
+                    xmlns:vmstatistics="clr-namespace:AM.UI.ViewModelUI.Statistics"
+
                     xmlns:people="clr-namespace:ViewModel.People;assembly=ViewModel"
                     xmlns:room="clr-namespace:ViewModel.Room;assembly=ViewModel"
-                    xmlns:roomview="clr-namespace:UI.View.Rooms"
-                    xmlns:view="clr-namespace:UI.View"
-                    xmlns:vh="clr-namespace:UI.View.Homes">
+                    xmlns:roomview="clr-namespace:AM.UI.View.Rooms"
+                    xmlns:roomdetailsview="clr-namespace:AM.UI.View.RoomDetails"
+                    xmlns:rentalview="clr-namespace:AM.UI.View.RentalContract"
+                    xmlns:depositview="clr-namespace:AM.UI.View.DepositContract"
+                    xmlns:billview="clr-namespace:AM.UI.View.Bills"
+                    xmlns:furnitureview="clr-namespace:AM.UI.View.Furniture"
+                    xmlns:statistics="clr-namespace:AM.UI.View.Statistics"
+                    xmlns:view="clr-namespace:AM.UI.View"
+                    xmlns:viewpeople="clr-namespace:AM.UI.View.People"
+                    xmlns:vh="clr-namespace:AM.UI.View.Homes">
 
     <DataTemplate DataType="{x:Type vm:HomeVM}">
         <vh:Home />
     </DataTemplate>
-
-    <DataTemplate DataType="{x:Type people:CustomerVM}">
-        <view:Customers />
+    <DataTemplate DataType="{x:Type vm:HomeBillListingViewModel}">
+        <vh:HomeBillListingView />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type room:RoomVm}">
+    <DataTemplate DataType="{x:Type vm:HomeEmptyRoomListtingVMUI}">
+        <vh:HomeRoomEmptyListingView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:HomeViewDetailCustomerVMUI}">
+        <vh:HomeCustomerListingView />
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:HomePaymentListtingVMUI}">
+        <vh:HomePEListingView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:CustomerVMUI}">
+        <viewpeople:Home />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmpeople:AddCustomerVMUI}">
+        <viewpeople:AddCustomer />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmpeople:UpdateCustomerVMUI}">
+        <viewpeople:UpdateCustomer />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:BillHomeVMUI}">
+        <billview:BillHome />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmbill:BillAddVMUI}">
+        <billview:BillAdd />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmbill:BillUpdateVMUI}">
+        <billview:BillUpdate />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:RoomHomeVMUI}">
         <roomview:RoomHome />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:OrderVM}">
-        <view:Orders />
+    <DataTemplate DataType="{x:Type vmr:RoomAddVMUI}">
+        <roomview:RoomAdd />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:TransactionVM}">
-        <view:Transactions />
+    <DataTemplate DataType="{x:Type vmr:RoomUpdateVMUI}">
+        <roomview:RoomUpdate />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:ShipmentVM}">
-        <view:Shipments />
+    <DataTemplate DataType="{x:Type vmrd:RoomDetailsHomeVMUI}">
+        <roomdetailsview:RoomDetailsHome />
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:SettingVM}">
-        <view:Settings />
+    <DataTemplate DataType="{x:Type vmrd:RoomDetailsAddImageVMUI}">
+        <roomdetailsview:RoomDetailsAdd />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrd:RoomDetailsInformationCustomerVMUI}">
+        <roomdetailsview:RoomDetailsInformationCustomer />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrf:FurnitureUpdateVMUI}">
+        <furnitureview:FurnitureUpdate />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrf:FurnitureAddVMUI}">
+        <furnitureview:FurnitureAdd />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrental:RentalContractAddVMUI}">
+        <rentalview:RentalContractAdd />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrental:AddCustomerInRentalVMUI}">
+        <rentalview:AddCustomerInRental />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmrental:RentalContractUpdateVMUI}">
+        <rentalview:RentalContractUpdate />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:FurnitureHomeVMUI}">
+        <furnitureview:FurnitureHome />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:RentalContractHomeVMUI}">
+        <rentalview:RentalContractHome />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmdeposit:DepositContractHomeVMUI}">
+        <depositview:DepositContractHome />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmdeposit:DepositContractAddVMUI}">
+        <depositview:DepositContractAdd />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:PaymentExtensionHomeVMUI}">
+        <view:PEHomeView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmdeposit:DepositContractUpdateVMUI}">
+        <depositview:DepositContractUpdate />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vmstatistics:StatisticsHomeVMUI}">
+        <statistics:StatisticsHomeView />
     </DataTemplate>
 </ResourceDictionary>

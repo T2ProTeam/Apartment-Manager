@@ -1,4 +1,4 @@
-﻿using Entity;
+﻿using Data.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -17,10 +17,10 @@ namespace Data.Configurations
             builder.HasKey(x => x.ID);
             builder.Property(x => x.ID).IsRequired();
             builder.HasOne(x => x.RentalContract).WithMany(x => x.Bills).HasForeignKey(x => x.IDRTC);
-            builder.Property(x=>x.ElectricQuantity).HasMaxLength(50).IsRequired();
-            builder.Property(x=>x.Active).HasMaxLength(50).IsRequired();
-            builder.Property(x => x.PayDate).HasDefaultValue(DateTime.Now);
-            builder.Property(x=>x.TotalMoney).IsRequired();
+            builder.Property(x => x.ElectricQuantity).HasMaxLength(50).IsRequired();
+            builder.Property(x => x.Active).HasMaxLength(50).IsRequired();
+            builder.Property(x => x.PayDate).HasMaxLength(50);
+            builder.Property(x => x.TotalMoney).IsRequired();
         }
     }
 }

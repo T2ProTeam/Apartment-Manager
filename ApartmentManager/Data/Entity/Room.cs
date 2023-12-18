@@ -1,27 +1,25 @@
-﻿using System;
+﻿using Data.Enum;
+using Data.Relationships;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Data.Entity
 {
-    public class Room
+    public class Room : DomainObject
     {
-        public int ID { get; set; }
-        public int IDLeader { get; set; }
         public string Name { get; set; }
         public int Quantity { get; set; }
-        public string IDImage { get; set; }
-        public RoomImage? RoomImage { get; set; }
 
-        public ICollection<RoomImage> RoomImages { get; } = new List<RoomImage>();
+        public int Staked { get; set; }
 
-        public ICollection<People> People { get; } = new List<People>();
+        public ICollection<RoomDetails> RoomDeltails { get; } = new List<RoomDetails>();
+
+        public ICollection<RoomImage> RoomImage { get; } = new List<RoomImage>();
 
         public ICollection<RentalContract> RentalContracts { get; } = new List<RentalContract>();
         public ICollection<DepositsContract> DepositsContracts { get; } = new List<DepositsContract>();
-
-
     }
 }

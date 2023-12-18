@@ -1,4 +1,4 @@
-﻿using Entity;
+﻿using Data.Entity;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,8 +17,9 @@ namespace Data
             builder.HasKey(x => x.ID);
             builder.Property(x => x.ID).IsRequired();
             builder.HasOne(x => x.Room).WithMany(x => x.DepositsContracts).HasForeignKey(x => x.IDRoom);
-            builder.Property(x => x.DepositsDate).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.ReceiveDate).HasDefaultValue(DateTime.Now);
+            builder.HasOne(x => x.People).WithMany(x => x.DepositsContracts).HasForeignKey(x => x.IDLeader);
+            builder.Property(x => x.DepositsDate).HasMaxLength(50);
+            builder.Property(x => x.ReceiveDate).HasMaxLength(50);
             builder.Property(x => x.CheckOutDate).IsRequired();
             builder.Property(x => x.Money).HasMaxLength(50).HasMaxLength(50);
         }

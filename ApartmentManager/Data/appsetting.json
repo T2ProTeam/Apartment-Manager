@@ -1,6 +1,0 @@
-{
-  "ConnectionStrings": {
-    "ApartmentDB": "Data Source=DESKTOP-IQ3UV32\\SQLEXPRESS;Database=Apartment;User ID=sa;Password=123456;TrustServerCertificate=True"
-    // "QLNSDb": "Data Source=ADMIN-PC;Database=QLNS;Trusted_Connection=True;TrustServerCertificate=True"
-  }
-}
